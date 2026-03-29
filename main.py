@@ -1,4 +1,4 @@
-from pawpal_system import Owner, Pet, Task, Scheduler
+from pawpal_system import Owner, Pet, Task, Scheduler, PriorityLevel
 
 # Create an owner
 owner = Owner("John Doe")
@@ -12,9 +12,9 @@ owner.add_pet(pet1)
 owner.add_pet(pet2)
 
 # Create at least three tasks with different times
-task1 = Task("Feed", 10, 3)  # 10 min, priority 3
-task2 = Task("Walk", 30, 2)  # 30 min, priority 2
-task3 = Task("Groom", 20, 1)  # 20 min, priority 1
+task1 = Task("Feed", 10, PriorityLevel.HIGH)  # 10 min, priority HIGH
+task2 = Task("Walk", 30, PriorityLevel.MEDIUM)  # 30 min, priority MEDIUM
+task3 = Task("Groom", 20, PriorityLevel.LOW)  # 20 min, priority LOW
 
 # Add tasks to pets
 pet1.add_task(task1)
