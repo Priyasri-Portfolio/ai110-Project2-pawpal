@@ -1,0 +1,41 @@
+{
+    "name": "Jordan",
+    "pets": [
+        {
+            "name": "Bubble",
+            "type": "dog",
+            "age": 0,
+            "tasks": []
+        },
+        {
+            "name": "Bubble",
+            "type": "dog",
+            "age": 0,
+            "tasks": []
+        },
+        {
+            "name": "Mochi",
+            "type": "dog",
+            "age": 0,
+            "tasks": []
+        },
+        {
+            "name": "coco",
+            "type": "cat",
+            "age": 0,
+            "tasks": []
+        },
+        {
+            "name": "Button",
+            "type": "dog",
+            "age": 0,
+            "tasks": []
+        },
+        {
+            "name": "Mimi",
+            "type": "dog",
+            "age": 0,
+            "tasks": []
+        }
+    ]
+}
